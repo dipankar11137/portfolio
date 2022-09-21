@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="text-center lg:text-left pl-0 md:pl-8 w-full xl:w-2/3">
           <Bounce right cascade>
             <div>
-              <p className="text-xl">Hello, I'm</p>
+              <p className="text-2xl">Hello, I'm</p>
               <h1 className="text-5xl font-bold">Dipankar Halder</h1>
               <p className="py-6">
                 A Junior Web Developer who care about writing clean code and
@@ -28,7 +28,7 @@ const Banner = () => {
         </div>
 
         <div className="avatar mr-0 lg:mr-3 mt-10 lg:mt-0">
-          <div className="w-72 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+          <div className="w-72 ">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToV1kT_SH_eNNMeLSy-6Dl6zsAgQpfriGold7ePmxe&s"
               alt="Profile Image"

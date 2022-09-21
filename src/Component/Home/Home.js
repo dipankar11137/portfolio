@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import Banner from "../Banner/Banner";
+import Banner from "../Pages/Banner/Banner";
 
 const Home = () => {
   return (
