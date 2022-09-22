@@ -18,7 +18,7 @@ const Banner = () => {
                   type="typewriter"
                   dataText={[
                     "Mean Stack Developer ",
-                    "Front End Developer",
+                    "Frontend Developer",
                     "React JS Developer",
                   ]}
                 />
