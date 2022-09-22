@@ -1,4 +1,23 @@
 import React from "react";
+import MovingComponent from "react-moving-text";
+const Letters = [
+  "D",
+  "I",
+  "P",
+  "A",
+  "N",
+  "K",
+  "A",
+  "R",
+  " ",
+  " ",
+  "H",
+  "A",
+  "L",
+  "D",
+  "E",
+  "R",
+];
 
 const Navbar = () => {
   return (
@@ -28,10 +47,26 @@ const Navbar = () => {
             <h1>Hmm khala hobe</h1>
           </ul>
         </div>
-        <h1>Dipu</h1>
+        <h1 className="text-3xl md:pl-20 text-orange-500 font-bold">
+          <span className=" text-white">Portfol</span>io
+        </h1>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <h1>AMe aice</h1>
+        <h2 className="flex text-3xl">
+          {Letters.map((letter, index) => (
+            <MovingComponent
+              type="pulse"
+              duration="2000ms"
+              delay="index * 1100ms"
+              direction="normal"
+              timing="ease"
+              iteration="infinite"
+              fillMode="none"
+            >
+              {letter}
+            </MovingComponent>
+          ))}
+        </h2>
       </div>
       <div className="navbar-end">
         <img
