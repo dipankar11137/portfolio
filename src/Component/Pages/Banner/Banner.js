@@ -1,5 +1,6 @@
 import React from "react";
 import { Bounce } from "react-reveal";
+import MovingComponent from "react-moving-text";
 import "./Banner.css";
 
 const Banner = () => {
@@ -9,8 +10,19 @@ const Banner = () => {
         <div className="text-center lg:text-left pl-0 md:pl-8 w-full xl:w-2/3">
           <Bounce right cascade>
             <div>
-              <p className="text-2xl">Hello, I'm</p>
-              <h1 className="text-5xl font-bold">Dipankar Halder</h1>
+              <p className="text-2xl">Hi, This is</p>
+              <h1 className="text-5xl font-bold uppercase">Dipankar Halder</h1>
+              <p className="flex mt-4 text-xl">
+                I am ,
+                <MovingComponent
+                  type="typewriter"
+                  dataText={[
+                    "Mean Stack Developer ",
+                    "Front End Developer",
+                    "React JS Developer",
+                  ]}
+                />
+              </p>
               <p className="py-6">
                 A Junior Web Developer who care about writing clean code and
                 genuinely love to learn more about web development.
@@ -30,7 +42,7 @@ const Banner = () => {
         <div className="avatar mr-0 lg:mr-3 mt-10 lg:mt-0">
           <div className="w-72 ">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToV1kT_SH_eNNMeLSy-6Dl6zsAgQpfriGold7ePmxe&s"
+              src="https://i.ibb.co/2j3TRmt/dipankar.png"
               alt="Profile Image"
             />
           </div>

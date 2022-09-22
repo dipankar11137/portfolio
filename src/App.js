@@ -52,7 +52,6 @@ function App() {
               <Route path="/contact" element={<Contact />}></Route>
               {/* <Route path="/projectDetails/:id" element={<ProjectDetails></ProjectDetails>}></Route> */}
             </Routes>
-            <Footer />
           </div>
           <div></div>
         </div>
@@ -64,6 +63,7 @@ function App() {
           </ul>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

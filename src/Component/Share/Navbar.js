@@ -25,29 +25,13 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>Parent</li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            <h1>Hmm khala hobe</h1>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <h1>Dipu</h1>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <a>Parent</a>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
+        <h1>AMe aice</h1>
       </div>
       <div className="navbar-end">
         <img
