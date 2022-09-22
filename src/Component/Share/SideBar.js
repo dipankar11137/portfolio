@@ -8,7 +8,8 @@ const SideBar = () => {
         <ul className="menu menu-vertical mt-24 w-full text-center">
           <NavLink
             to="/"
-            className="mt-5 text-center sm:mx-4 px-2 sm:px-0 pt-3 h-12  w-auto sm:w-100 "
+            className="mt-5 text-center sm:mx-4 px-2 sm:px-0 pt-3 h-12  w-auto sm:w-100 tooltip tooltip-right-20px tooltip-error too"
+            data-tip="Home"
           >
             {/* <HomeIcon style={{ fontSize: 40 }} /> */}
             <img
@@ -17,9 +18,11 @@ const SideBar = () => {
               alt=""
             />
           </NavLink>
+
           <NavLink
             to="/projects"
-            className="mt-5 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 "
+            className="mt-5 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 tooltip tooltip-right-56 tooltip-error"
+            data-tip="Projects"
           >
             <img
               className="h-16 mt-6 rounded-full w-auto mx-auto hover:h-20 item-center sm:mx-4 px-2 sm:px-0 sm:w-100 cursor-pointer transition-all duration-200 ease-in-out"
@@ -29,7 +32,8 @@ const SideBar = () => {
           </NavLink>
           <NavLink
             to="/blogs"
-            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 "
+            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 tooltip tooltip-right-56 tooltip-error"
+            data-tip="Blogs"
           >
             <img
               className="h-16 mt-6 rounded-full w-auto mx-auto hover:h-20 item-center sm:mx-4 px-2 sm:px-0 sm:w-100 cursor-pointer transition-all duration-200 ease-in-out"
@@ -39,7 +43,8 @@ const SideBar = () => {
           </NavLink>
           <NavLink
             to="/about"
-            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 "
+            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 tooltip tooltip-right-56 tooltip-error"
+            data-tip="About"
           >
             <img
               className="h-16 mt-6 rounded-full w-auto mx-auto hover:h-20 item-center sm:mx-4 px-2 sm:px-0 sm:w-100 cursor-pointer transition-all duration-200 ease-in-out"
@@ -49,7 +54,8 @@ const SideBar = () => {
           </NavLink>
           <NavLink
             to="/contact"
-            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 "
+            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 tooltip tooltip-right-56 tooltip-error"
+            data-tip="Contact"
           >
             <img
               className="h-16 mt-6 rounded-full w-auto mx-auto hover:h-20 item-center sm:mx-4 px-2 sm:px-0 sm:w-100 cursor-pointer transition-all duration-200 ease-in-out"

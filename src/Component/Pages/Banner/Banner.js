@@ -16,7 +16,7 @@ const Banner = () => {
                 genuinely love to learn more about web development.
               </p>
               <a
-                href="https://drive.google.com/file/d/1dd5WJRalDhF3a3kVBnPXzs7fyaqggb02/view"
+                href=""
                 target="_blank"
                 className="btn px-6 py-2 rounded-lg text-xl"
                 rel="noreferrer"

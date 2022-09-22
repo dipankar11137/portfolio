@@ -1,6 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Component/Home/Home";
+import About from "./Component/Pages/About/About";
+import Blogs from "./Component/Pages/Blogs/Blogs";
+import Contact from "./Component/Pages/Contact/Contact";
+import Projects from "./Component/Pages/Projects/Projects";
+import Footer from "./Component/Share/Footer";
 import Navbar from "./Component/Share/Navbar";
 import SideBar from "./Component/Share/SideBar";
 
@@ -41,13 +46,13 @@ function App() {
             </div>
             <Routes>
               <Route path="/" element={<Home></Home>}></Route>
-              {/* <Route path="/projects" element={<Projects></Projects>}></Route>
-            <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-            <Route path="/about" element={<About></About>}></Route>
-            <Route path="/contact" element={<ContactForm></ContactForm>}></Route>
-            <Route path="/projectDetails/:id" element={<ProjectDetails></ProjectDetails>}></Route> */}
+              <Route path="/projects" element={<Projects />}></Route>
+              <Route path="/blogs" element={<Blogs />}></Route>
+              <Route path="/about" element={<About />}></Route>
+              <Route path="/contact" element={<Contact />}></Route>
+              {/* <Route path="/projectDetails/:id" element={<ProjectDetails></ProjectDetails>}></Route> */}
             </Routes>
-            {/* <Footer></Footer> */}
+            <Footer />
           </div>
           <div></div>
         </div>
