@@ -87,6 +87,7 @@ const MySkills = () => {
   return (
     <div className="pb-20">
       <h1 className="text-5xl text-white font-bold py-4 text-center">Skills</h1>
+
       <div class="grid grid-cols-4 gap-4 px-10">
         {skills.map((skill) => (
           <MySkill key={skill._id} skill={skill}></MySkill>
