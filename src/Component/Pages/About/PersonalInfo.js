@@ -9,43 +9,39 @@ const PersonalInfo = () => {
       </h1>
       <div className="grid lg:grid-cols-2">
         <div>
-          <h3 className="text-xl">
-            <span className="font-bold text-blue-200 text-2xl">Name :</span>{" "}
+          <h3 className="">
+            <span className="font-bold text-blue-200 text-xl">Name :</span>{" "}
             Dipankar Halder
           </h3>
-          <h3 className="text-xl mt-4">
+          <h3 className=" mt-4">
             <span className="font-bold text-blue-200 text-2xl">Age :</span> 23
           </h3>
           <h3 className="text-xl mt-4">
-            <span className="font-bold text-blue-200 text-2xl">Email :</span>{" "}
+            <span className="font-bold text-blue-200 text-xl">Email :</span>{" "}
           </h3>
-          <p className="text-xl">dipankar.halder117@gmail.com</p>
-          <h3 className="text-xl mt-4">
-            <span className="font-bold text-blue-200 text-2xl">Address :</span>{" "}
+          <p className="">dipankar.halder117@gmail.com</p>
+          <h3 className="mt-4">
+            <span className="font-bold text-blue-200 text-xl">Address :</span>{" "}
             Dhaka, Bangladesh
           </h3>
         </div>
         <div>
-          <h3 className="text-xl">
-            <span className="font-bold text-blue-200 text-2xl">
-              Freelance :
-            </span>{" "}
+          <h3 className="">
+            <span className="font-bold text-blue-200 text-xl">Freelance :</span>{" "}
             Available
           </h3>
-          <h3 className="text-xl mt-4">
-            <span className="font-bold text-blue-200 text-2xl">Skill :</span>{" "}
+          <h3 className=" mt-4">
+            <span className="font-bold text-blue-200 text-xl">Skill :</span>{" "}
             Front-End
           </h3>
-          <h3 className="text-xl mt-4">
-            <span className="font-bold text-blue-200 text-2xl">
+          <h3 className=" mt-4">
+            <span className="font-bold text-blue-200 text-xl">
               Experience :
             </span>{" "}
             0 Years
           </h3>
-          <h3 className="text-xl mt-4">
-            <span className="font-bold text-blue-200 text-2xl">
-              Language :{" "}
-            </span>{" "}
+          <h3 className=" mt-4">
+            <span className="font-bold text-blue-200 text-xl">Language : </span>{" "}
             Bengali, English
           </h3>
         </div>
