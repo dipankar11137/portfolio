@@ -23,9 +23,13 @@ const Banner = () => {
                   ]}
                 />
               </p>
-              <p className="py-6">
-                A Junior Web Developer who care about writing clean code and
-                genuinely love to learn more about web development.
+              <p className="py-6 text-xl">
+                Hardworking web developer with a flair for creating elegant
+                solutions in minimal time. With proven ability to adapt to both
+                self-starting and collaborative environments while remaining
+                focused on achieving high-quality results under tight deadlines.
+                Interested in a challenging position in a prestigious company
+                that will expand my learning and build on my developer skills.
               </p>
               <a
                 href="https://drive.google.com/file/d/1v8Lu4VeLDHdkNtD3OgXY0A13PrEXPibB/view?usp=sharing"
