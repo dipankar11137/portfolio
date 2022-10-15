@@ -85,8 +85,10 @@ const MySkills = () => {
     },
   ];
   return (
-    <div className="pb-20">
-      <h1 className="text-5xl text-white font-bold py-4 text-center">Skills</h1>
+    <div className="pb-20 mt-16">
+      <h1 className="text-8xl text-white uppercase font-bold py-4 text-center">
+        <span className="text-red-600 ">MY</span> Skills
+      </h1>
 
       <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-10">
         {skills.map((skill) => (

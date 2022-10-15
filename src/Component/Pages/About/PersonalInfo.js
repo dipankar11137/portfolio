@@ -3,11 +3,11 @@ import download from "../../../Image/Icon/downloads-icon.png";
 
 const PersonalInfo = () => {
   return (
-    <div className="lg:mt-14">
+    <div className="md:mt-28 mb-5">
       <h1 className="text-4xl mb-5 uppercase font-bold">
         Personal Information
       </h1>
-      <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-2">
         <div>
           <h3 className="text-xl">
             <span className="font-bold text-blue-200 text-2xl">Name :</span>{" "}
