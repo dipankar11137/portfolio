@@ -53,9 +53,7 @@ function App() {
               {/* <Route path="/projectDetails/:id" element={<ProjectDetails></ProjectDetails>}></Route> */}
             </Routes>
           </div>
-          <div>
-            <Footer />
-          </div>
+          <div>{/* <Footer /> */}</div>
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>

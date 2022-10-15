@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Slide from "react-reveal/Slide";
 import Zoom from "react-reveal/Zoom";
 
 const SideBar = () => {
@@ -24,8 +23,22 @@ const SideBar = () => {
           </NavLink>
 
           <NavLink
-            to="/projects"
+            to="/about"
             className="mt-5 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 tooltip tooltip-right-56 tooltip-error"
+            data-tip="About"
+          >
+            <Zoom>
+              <img
+                className="h-16 mt-6 rounded-full w-auto mx-auto hover:h-20 item-center sm:mx-4 px-2 sm:px-0 sm:w-100 cursor-pointer transition-all duration-200 ease-in-out"
+                src="https://www.logolynx.com/images/logolynx/18/188a80cc5cd1f0dadd54f543e40885a3.jpeg"
+                alt=""
+              />
+            </Zoom>
+          </NavLink>
+
+          <NavLink
+            to="/projects"
+            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 tooltip tooltip-right-56 tooltip-error"
             data-tip="Projects"
           >
             <Zoom>
@@ -49,19 +62,6 @@ const SideBar = () => {
               />
             </Zoom>
           </NavLink>
-          <NavLink
-            to="/about"
-            className="mt-10 mx-1 sm:mx-4 text-center  sm:px-0 pt-3 h-12 w-auto sm:w-100 tooltip tooltip-right-56 tooltip-error"
-            data-tip="About"
-          >
-            <Zoom>
-              <img
-                className="h-16 mt-6 rounded-full w-auto mx-auto hover:h-20 item-center sm:mx-4 px-2 sm:px-0 sm:w-100 cursor-pointer transition-all duration-200 ease-in-out"
-                src="https://www.logolynx.com/images/logolynx/18/188a80cc5cd1f0dadd54f543e40885a3.jpeg"
-                alt=""
-              />
-            </Zoom>
-          </NavLink>
 
           <NavLink
             to="/contact"
@@ -71,7 +71,7 @@ const SideBar = () => {
             <Zoom>
               <img
                 className="h-16 mt-6 rounded-full w-auto mx-auto hover:h-20 item-center sm:mx-4 px-2 sm:px-0 sm:w-100 cursor-pointer transition-all duration-200 ease-in-out"
-                src="https://play-lh.googleusercontent.com/xa2Jz8JUvubis7d92oPMu6vuBRKbphARTYwgNeJ3DEAwJbfKEze0xt7WlOL691AFWf8"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1200px-Google_Contacts_icon.svg.png"
                 alt=""
               />
             </Zoom>
