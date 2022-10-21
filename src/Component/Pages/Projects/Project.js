@@ -8,8 +8,22 @@ const Project = ({ project }) => {
         {/* <img src="img_avatar.png" alt="Avatar" class="image"> */}
         <img src={project?.img} alt="Avatar" className="image" />
         <div class="overlay">
-          {" "}
-          <div class="text">Live Link</div>{" "}
+          <div>
+            <a href={project?.liveLink} className="btn text" target="_blank">
+              Live Link
+            </a>
+
+            <a href={project?.git} className="btn text mt-16" target="_blank">
+              GitHub Link
+            </a>
+            <a
+              href={project?.server}
+              className="btn text mt-32"
+              target="_blank"
+            >
+              Server Link
+            </a>
+          </div>
         </div>
       </div>
     </div>
