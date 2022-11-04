@@ -1,5 +1,6 @@
 import React from "react";
 import MySkills from "../MySkills/MySkills";
+import Education from "./Education";
 import ExpPrj from "./ExpPrj";
 import PersonalInfo from "./PersonalInfo";
 
@@ -18,6 +19,7 @@ const About = () => {
         </div>
       </div>
       <MySkills />
+      {/* <Education /> */}
     </div>
   );
 };
